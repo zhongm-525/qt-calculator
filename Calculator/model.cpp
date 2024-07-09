@@ -17,6 +17,7 @@ void model::setFlag(QString flag){
     this->flag = flag;
 }
 
+//implement the calculator logic
 QString model::doExpr(){
     float result = 0.0;
     if(this->flag == "+"){
